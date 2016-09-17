@@ -1,0 +1,6 @@
+{
+  "name": "Node-cpm",
+  "tagline": "子进程管理。",
+  "body": "### 简单\r\n仅提供简单的功能，启动子进程，并对子进程进行一些简单的管理：启动、停止、监视。但你可以执行一串命令，用于管理你的服务。\r\n\r\n### 接口\r\n所有的管理通过统一的接口实现，可以通过远程进行管理。\r\n\r\n### 额\r\n其它的没想到。\r\n\r\n",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}

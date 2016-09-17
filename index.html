@@ -1,11 +1,62 @@
---- 　　
-layout: default 　　
-title: 我的Blog 　　
----
-<h2>{{ page.title }}</h2>
-<p>最新文章</p>
-<ul>
-    {% for post in site.posts %}
-    <li>{{ post.date | date_to_string }} <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
-</ul>
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="description" content="Node-cpm : 子进程管理。">
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>Node-cpm</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/zsea/node-cpm">View on GitHub</a>
+
+          <h1 id="project_title">Node-cpm</h1>
+          <h2 id="project_tagline">子进程管理。</h2>
+
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/zsea/node-cpm/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/zsea/node-cpm/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <h3>
+<a id="简单" class="anchor" href="#%E7%AE%80%E5%8D%95" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>简单</h3>
+
+<p>仅提供简单的功能，启动子进程，并对子进程进行一些简单的管理：启动、停止、监视。但你可以执行一串命令，用于管理你的服务。</p>
+
+<h3>
+<a id="接口" class="anchor" href="#%E6%8E%A5%E5%8F%A3" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>接口</h3>
+
+<p>所有的管理通过统一的接口实现，可以通过远程进行管理。</p>
+
+<h3>
+<a id="额" class="anchor" href="#%E9%A2%9D" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>额</h3>
+
+<p>其它的没想到。</p>
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">Node-cpm maintained by <a href="https://github.com/zsea">zsea</a></p>
+        <p>Published with <a href="https://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+    
+
+  </body>
+</html>
